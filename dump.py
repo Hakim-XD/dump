@@ -81,7 +81,6 @@ def masuk():
     	print("%s [!] Isi yang benar kentod "%(M));exit()
     elif rom in ('1','01'):
         jalan("\n%s [%s!%s] Wajib gunakan akun tumbal dilarang akun utama"%(P,M,P))
-    	romz = raw_input('%s [?] Token : %s'%(P,K))
         if romz in(""):
         	print("%s [!] Isi yang benar kentod "%(M));exit()
     	try:
